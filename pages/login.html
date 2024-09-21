@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="../style.css" />
-        <title>About</title>
+        <title>Login</title>
     </head>
     <body link="white" alink="white" vlink="white">
         <div class="header">
@@ -31,20 +31,30 @@
         </div>
         <div class="main">
             <div class="main-page">
-                <div class="about">
-                    <h1 class="title">
-                        We are glad to have such wonderful authors working in
-                        our editorial office: <br />
-                        <br />
-                        @Alejandro_L @Toris_Bkachenko @Pima_Detuhov @Klad_Vozlov
-                        @Fevral_Janyearov @Humor_Petrosyan @Ilon_Hater
-                        @Mega_Trone @Still_OnNokia3310 @Levin_Pravin
-                        @AMD_Enjoyer @Poco_Phone
-                        <br />
-                        and the rest of the staff.
-                        <br />
-                        <br />Call us 8 800 555 35 35
-                    </h1>
+                <div class="main-news">
+                    <div class="login-block">
+                        <div class="login-form">
+                            <form>
+                                <h1 class="title">Type your credentials</h1>
+                                <input
+                                    class="input-field"
+                                    type="text"
+                                    placeholder="Username"
+                                />
+                                <input
+                                    class="input-field"
+                                    type="password"
+                                    placeholder="Password"
+                                />
+                                <input
+                                    onclick="loginSuccess()"
+                                    class="login-btn"
+                                    type="button"
+                                    value="Login"
+                                />
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
